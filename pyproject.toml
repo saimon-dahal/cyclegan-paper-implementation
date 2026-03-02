@@ -1,0 +1,15 @@
+[project]
+name = "cyclegan"
+version = "0.1.0"
+description = "Implementation of the CycleGAN Paper"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dynaconf>=3.2.12",
+    "pillow>=12.1.1",
+    "setuptools<82",
+    "tensorboard>=2.20.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "tqdm>=4.67.3",
+]

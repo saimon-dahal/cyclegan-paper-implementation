@@ -1,0 +1,18 @@
+default:
+  # Dataset
+  data_root: "vangogh2photo"
+  img_size: 256
+  batch_size: 1
+  num_workers: 4
+  
+  # Training
+  n_epochs: 200
+  lr: 0.0002
+  beta1: 0.5
+  lambda_cycle: 10.0
+  lambda_identity: 5.0
+  
+  # Model
+  n_residual_blocks: 9
+  input_channels: 3
+  output_channels: 3
